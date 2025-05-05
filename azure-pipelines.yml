@@ -10,8 +10,5 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: ArchiveFiles@2
-  inputs:
-    rootFolderOrFile: '$(build.sourceDirectory)'
-    includeRootFolder: false
+- task: Maven@4
 - task: PublishBuildArtifacts@1
