@@ -10,11 +10,4 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: ArchiveFiles@2
-- task: AzureFileCopy@6
-  inputs:
-    Destination: 
-  inputs:
-    rootFolderOrFile: '$(build.sourcesDirectory)'
-    includeRootFolder: false
 - task: PublishBuildArtifacts@1
