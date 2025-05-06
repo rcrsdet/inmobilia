@@ -11,4 +11,3 @@ pool:
 
 steps:
 - task: Maven@4
-- task: PublishBuildArtifacts@1
